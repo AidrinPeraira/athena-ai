@@ -172,7 +172,7 @@ export default function ChatPage() {
               </svg>
             </div>
             <span className="text-slate-300/80 text-sm font-light tracking-[0.2em] uppercase font-mono">
-              Clarified AI
+              Athena AI
             </span>
           </motion.div>
 
@@ -192,10 +192,10 @@ export default function ChatPage() {
                     className="text-4xl sm:text-5xl font-light text-white/90 tracking-tight leading-tight"
                     style={{ fontFamily: "'Manrope', sans-serif" }}
                   >
-                    What's on your mind?
+                    Have a HR question in mind?
                   </h1>
                   <p className="text-slate-400/70 text-sm tracking-wide">
-                    Ask anything — I&apos;ll think, then answer.
+                    Ask away! — I&apos;ll help you structure it.
                   </p>
                 </motion.div>
               )}
@@ -311,7 +311,7 @@ export default function ChatPage() {
 
             {/* Hint */}
             <p className="text-center text-[10px] text-slate-600/60 mt-4 tracking-[0.15em] uppercase font-mono">
-              Clarified AI · Context-aware responses
+              Athena AI · Your HR interview strategist
             </p>
           </motion.div>
         </div>
