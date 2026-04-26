@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { motion, AnimatePresence } from "framer-motion";
+import ReactMarkdown from "react-markdown";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -11,33 +12,50 @@ interface Message {
   content: string;
 }
 
-// ─── Animated Text (word-by-word reveal) ─────────────────────────────────────
+// ─── Markdown Answer ─────────────────────────────────────────────────────────
 
-function AnimatedAnswer({ text, animKey }: { text: string; animKey: string }) {
-  const words = text.split(" ");
+function MarkdownAnswer({ text }: { text: string }) {
   return (
-    <motion.div
-      key={animKey}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="text-center"
+    <ReactMarkdown
+      components={{
+        h1: ({ children }) => (
+          <h1 className="text-2xl font-semibold text-white/95 mb-4 mt-6 first:mt-0">{children}</h1>
+        ),
+        h2: ({ children }) => (
+          <h2 className="text-xl font-semibold text-white/90 mb-3 mt-5 first:mt-0">{children}</h2>
+        ),
+        h3: ({ children }) => (
+          <h3 className="text-lg font-medium text-white/85 mb-2 mt-4 first:mt-0">{children}</h3>
+        ),
+        p: ({ children }) => (
+          <p className="text-base leading-relaxed text-slate-200/90 mb-3 last:mb-0">{children}</p>
+        ),
+        ul: ({ children }) => (
+          <ul className="list-disc list-outside ml-5 mb-3 space-y-1.5 text-slate-200/90">{children}</ul>
+        ),
+        ol: ({ children }) => (
+          <ol className="list-decimal list-outside ml-5 mb-3 space-y-1.5 text-slate-200/90">{children}</ol>
+        ),
+        li: ({ children }) => (
+          <li className="text-base leading-relaxed">{children}</li>
+        ),
+        strong: ({ children }) => (
+          <strong className="font-semibold text-blue-300">{children}</strong>
+        ),
+        em: ({ children }) => (
+          <em className="italic text-slate-300">{children}</em>
+        ),
+        code: ({ children }) => (
+          <code className="bg-white/10 text-blue-300 px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>
+        ),
+        blockquote: ({ children }) => (
+          <blockquote className="border-l-2 border-blue-400/40 pl-4 my-3 text-slate-300/80 italic">{children}</blockquote>
+        ),
+        hr: () => <hr className="border-white/10 my-4" />,
+      }}
     >
-      {words.map((word, i) => (
-        <motion.span
-          key={i}
-          initial={{ opacity: 0, y: 12, filter: "blur(6px)" }}
-          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          transition={{
-            duration: 0.35,
-            delay: i * 0.04,
-            ease: [0.21, 0.47, 0.32, 0.98],
-          }}
-          className="inline-block mr-[0.3em]"
-        >
-          {word}
-        </motion.span>
-      ))}
-    </motion.div>
+      {text}
+    </ReactMarkdown>
   );
 }
 
@@ -154,7 +172,7 @@ export default function ChatPage() {
 
       {/* Main UI */}
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-4">
-        <div className="w-full max-w-2xl flex flex-col items-center gap-8">
+        <div className="w-full max-w-3xl flex flex-col items-center gap-8">
           {/* Logo / Brand */}
           <motion.div
             initial={{ opacity: 0, y: -16 }}
@@ -177,7 +195,7 @@ export default function ChatPage() {
           </motion.div>
 
           {/* Answer Area */}
-          <div className="w-full min-h-[120px] flex items-center justify-center">
+          <div className="w-full min-h-[120px] max-h-[60vh] overflow-y-auto flex items-start justify-center scrollbar-thin scrollbar-thumb-white/10">
             <AnimatePresence mode="wait">
               {!hasAnswered && !loading && (
                 <motion.div
@@ -215,20 +233,17 @@ export default function ChatPage() {
               {!loading && hasAnswered && answer && (
                 <motion.div
                   key={`answer-${answerKey}`}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -12 }}
-                  transition={{ duration: 0.3 }}
+                  transition={{ duration: 0.4, ease: "easeOut" }}
                   className="w-full"
                 >
                   <div
-                    className="text-lg sm:text-xl leading-relaxed text-slate-100/95 font-light text-center"
+                    className="text-left font-light"
                     style={{ fontFamily: "'Manrope', sans-serif" }}
                   >
-                    <AnimatedAnswer
-                      text={answer}
-                      animKey={`animated-${answerKey}`}
-                    />
+                    <MarkdownAnswer text={answer} />
                   </div>
                 </motion.div>
               )}

@@ -7,18 +7,11 @@ import "dotenv/config";
 const ai = new GoogleGenAI({});
 
 async function main() {
-  const ai = new GoogleGenAI({});
-
-  const response = await ai.models.embedContent({
-    model: "gemini-embedding-001",
-    contents: [
-      "What is the meaning of life?",
-      "What is creation?",
-      "How to make noodles?",
-    ],
+  const response = await ai.models.generateContent({
+    model: "gemini-3.1-flash-lite-preview",
+    contents: "Explain how AI works",
   });
-
-  console.log(response);
+  console.log(response.text);
 }
 
 main();

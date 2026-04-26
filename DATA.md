@@ -208,7 +208,7 @@ Always do research about the company and the role and also listen to the convers
 - What quality / skill are you looking for in an ideal candidate? (What can i learn to be a better suited for the company)
 - During the initial 90 days what does the company have expect from me?
 
-## **Self-Introduction: Aidrin Peraira**
+## **Self-Introduction: John Doe**
 
 <aside>
 💡
@@ -216,7 +216,7 @@ Always do research about the company and the role and also listen to the convers
 Don’t use i am this that. Make something catchy. Use big words.
 
 - Example
-  "Hello everyone, I’m Aidrin Peraira. Before I tell you what I build now, let me tell you what I used to build.
+  "Hello everyone, I’m John Doe. Before I tell you what I build now, let me tell you what I used to build.
   My roots are in the vibrant, complex world of Civil Engineering—specifically, on the demanding construction sites of Kochi. For two years, I wasn't just reading blueprints; I was the guy managing the entire operation: securing the contracts, balancing the books, handling the intense negotiations between clients, workers, and dealers, and leading the project execution from the ground up. I had full accountability for every single phase.
   But here’s the problem I ran into: The tools of the trade were slowing me down. I realized that the greatest leverage point for growth wasn't just managing concrete and steel, but managing information.
   This realization became my obsession. I started small—optimizing spreadsheets, building database logic—and what began as an efficiency hack for my engineering business quickly became a profound new direction. I discovered the deep, almost addictive satisfaction of solving complex, intricate problems using code.
@@ -230,7 +230,7 @@ Don’t use i am this that. Make something catchy. Use big words.
 
  **Basic Information**
 
-- **Name:** Aidrin Peraira
+- **Name:** John Doe
 - **Location:** Kochi, Kerala
 - **Current Role:** Full Stack Software Developer
 
@@ -262,7 +262,7 @@ Don’t use i am this that. Make something catchy. Use big words.
 I am now actively looking for a role where I can utilize both my technical expertise and my strong professional/project management background to contribute to positive change within a company. Is there anything specific about my experience you'd like me to elaborate on?
 
 - Example:
-  "Hello, I'm Aidrin Peraira, and I'm originally from Kochi, a small but vibrant city in Kerala.
+  "Hello, I'm John Doe, and I'm originally from Kochi, a small but vibrant city in Kerala.
   I currently work as a **Full Stack Software Developer**, focusing on building comprehensive web solutions that tackle real-world challenges using the principles of Object-Oriented Programming. My core technology stack is robust, including **TypeScript, Node.js, Express, React, and Next.js**, and I utilize tools like **Docker** for deployment and containerization.
   My journey to software development is perhaps unconventional. I hold a B.Tech in **Civil Engineering** and graduated in 2021. Following my graduation, I spent two years gaining hands-on experience as an Onsite Engineer. After earning my engineer’s license, I transitioned into freelancing, which significantly broadened my professional skill set. In my engineering career, I was deeply involved in every phase of a project: securing new projects, managing accounting and sales, leading project execution, and simultaneously balancing the complex relationships between clients, workers, and dealers.
   It was in the pursuit of greater efficiency for my own engineering business that I stumbled upon the power of coding. I started with simple tools—optimizing spreadsheets and setting up database tables in Notion—and eventually found my way to programming. I quickly realized the deep satisfaction that comes from solving small, intricate problems and building functional applications. This passion led me to dedicate myself fully to the field, culminating in a specialized bootcamp.
