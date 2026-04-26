@@ -81,6 +81,7 @@ RULES:
 - When relevant, suggest frameworks like STAR (Situation, Task, Action, Result) or CAR (Challenge, Action, Result).
 - Format key points clearly. You may use bullet points sparingly.
 - Do NOT make up facts or company-specific details.
+- Always use simple words to explain things. Assume the user is not a native english speaker or someone who might not understand complex terms.
 
 CONTEXT FROM KNOWLEDGE BASE:
 ${context}`;

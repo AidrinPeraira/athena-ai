@@ -1,19 +1,4 @@
-# HR
-
-# **Interview Tips**
-
-## Story Telling During Interviews
-
-<aside>
-💡
-
-Try to have at least 5 different stories ready. Not necessarily all success also failure.
-
-Stories give a better picture of you and your skills
-
-</aside>
-
-### Foundation
+# Importance of Story Telling in Interviews
 
 - Why story telling matters? Because it give the listener the following
   - Reliability
@@ -26,7 +11,25 @@ Stories give a better picture of you and your skills
   - CAR: Challenge Action Result
   - …etc
 
-### Building Personal Story
+# Types of questions you might encounter during the interview
+
+- Behavioral questions
+- Situational questions
+- Technical questions
+- Cultural fit questions
+- Critical Questions
+
+## Top skills absolutely necessary.
+
+- Problem Solving
+- Communication
+- Adaptability
+- Ownership of work
+- Strong fundamentals in tech
+
+Always show that you have these skills when presenting your self. These are the ones they look for the most
+
+## How to build a personal story?
 
 - Have these points in mind to portray in you story
   - Leadership
@@ -34,6 +37,8 @@ Stories give a better picture of you and your skills
   - Conflict
   - Achievement
   - Learning Moments
+
+# How to keep your answers structured?
 
 ## 3C Rule for Answers
 
@@ -45,7 +50,68 @@ Stories give a better picture of you and your skills
 - Composure
   - Stay calm even if the question is uncomfortable
 
-## First Call
+# Self Introduction
+
+## Information to include in a self introduction
+
+### Basic Information
+
+- **Name:** John Doe
+- **Location:** Kochi, Kerala
+- **Current Role:** Full Stack Software Developer
+
+### Current Expertise (Software Development)
+
+- I build **full-stack web solutions** focused on solving real-world problems.
+- My development philosophy is rooted in **Object-Oriented Programming (OOP)** principles.
+- **Key Technologies:**
+- **Backend:** Node.js, Express, TypeScript, JavaScript, Docker
+- **Frontend:** React, Next.js
+
+### Previous Background
+
+- **Education:** Include details about you school or college. Also include details of any additonal certificationa that you have.
+- **Experience:** Run through the past jobs and scenarios you have had that can give you work experience relevant to the job you are applying for. sometimes you might not have worked in a compoany but you can still use other experience on projects you have worked on, internships, freelance work etc.. to show your skills. Don't waste time elaborating about all aspects of your past experience. Focus on what is relevant to the job you are applying for. Keep it brief.
+- **Key Professional Skills:**
+- Professional Skills include:
+  - Project Management (handling, securing, and execution)
+  - Client Relations and Stakeholder Management (clients, workers, and dealers)
+  - Business Operations (Sales, Marketing, and Accounting)
+
+### Transition to Tech
+
+- If you are switching careers, make sure you mention it here and also mention why you are switching careers. You can also mention how your past experience is relevant to the job you are applying for.
+- I discovered coding while looking for tools (spreadsheets, Notion databases) to streamline my engineering business processes.
+- The satisfaction of solving problems and building applications led me to pursue a bootcamp and become a full-stack developer.
+- I am passionate about leveraging my combined experience to build efficient and impactful software solutions.
+
+### Closing Statement
+
+- Don't forget to conclude what you had said. Ask them if they want to know anything else specifically. Is there anything specific about my experience you'd like me to elaborate on?
+  I am now actively looking for a role where I can utilize both my technical expertise and my strong professional/project management background to contribute to positive change within a company. Is there anything specific about my experience you'd like me to elaborate on?
+
+### An example for a simple self introduction
+
+    "Hello, I'm John Doe, and I'm originally from Kochi, a small but vibrant city in Kerala.
+    I currently work as a **Full Stack Software Developer**, focusing on building comprehensive web solutions that tackle real-world challenges using the principles of Object-Oriented Programming. My core technology stack is robust, including **TypeScript, Node.js, Express, React, and Next.js**, and I utilize tools like **Docker** for deployment and containerization.
+    My journey to software development is perhaps unconventional. I hold a B.Tech in **Civil Engineering** and graduated in 2021. Following my graduation, I spent two years gaining hands-on experience as an Onsite Engineer. After earning my engineer’s license, I transitioned into freelancing, which significantly broadened my professional skill set. In my engineering career, I was deeply involved in every phase of a project: securing new projects, managing accounting and sales, leading project execution, and simultaneously balancing the complex relationships between clients, workers, and dealers.
+    It was in the pursuit of greater efficiency for my own engineering business that I stumbled upon the power of coding. I started with simple tools—optimizing spreadsheets and setting up database tables in Notion—and eventually found my way to programming. I quickly realized the deep satisfaction that comes from solving small, intricate problems and building functional applications. This passion led me to dedicate myself fully to the field, culminating in a specialized bootcamp.
+    Now, as a full-stack web developer, I am looking forward to joining a company where I can apply my unique blend of technical skills and real-world project management expertise to drive meaningful change. I'm eager to learn and contribute to a team environment. Is there anything specific about my experience that you'd like me to dive deeper into?"
+
+### An example for a better way to frame your answer
+
+- Don’t use i am this that. Make something catchy. Use big words.
+  "Hello everyone, I’m John Doe. Before I tell you what I build now, let me tell you what I used to build.
+  My roots are in the vibrant, complex world of Civil Engineering—specifically, on the demanding construction sites of Kochi. For two years, I wasn't just reading blueprints; I was the guy managing the entire operation: securing the contracts, balancing the books, handling the intense negotiations between clients, workers, and dealers, and leading the project execution from the ground up. I had full accountability for every single phase.
+  But here’s the problem I ran into: The tools of the trade were slowing me down. I realized that the greatest leverage point for growth wasn't just managing concrete and steel, but managing information.
+  This realization became my obsession. I started small—optimizing spreadsheets, building database logic—and what began as an efficiency hack for my engineering business quickly became a profound new direction. I discovered the deep, almost addictive satisfaction of solving complex, intricate problems using code.
+  I made the pivot, dedicated myself fully to this new craft, and now I operate as a Full Stack Software Developer.
+  My core mission is to build comprehensive web solutions that tackle those real-world business challenges I know intimately. My stack is sharp and modern: TypeScript, Node.js, Express, React, and Next.js, all containerized with Docker.
+  The difference between me and a typical developer? I don't just understand the code; I understand the P&L, the project lifecycle, the client relationship, and the critical path. I bring two years of hands-on, full-spectrum project management and business acumen directly into the software development process.
+  I’m looking for a team where I can leverage this unique blend of real-world accountability and technical depth to drive meaningful change. I'm eager to learn, contribute, and build something truly impactful.
+  Now, which part of that journey—the site execution or the code stack—would you like to drill into first?"
+
+# What to do when a HR interviewer calls you regarding your application?
 
 - Confirm the name of HR and company
 - Verify it is valid HR
@@ -55,7 +121,7 @@ Stories give a better picture of you and your skills
 - If the hr is calling you tell him you are busy and call him back after refreshing up on the application.
 - Don’t give salary expectation. Give a range or ask for a budget and say that seems to be in and around the range.
 
-## Tricky Questions
+# Tricky Questions that the HR might ask during the interview
 
 - How to convince someone that i will not switch to civil engineering again?
 - Why did I switch to programming?
@@ -107,7 +173,7 @@ Stories give a better picture of you and your skills
 - Will you chcose another company same role higher pay?
 - What could be the reason you will resign from an organisation?
 
-### Ace Questions
+# More Situational and Behavioural Questions
 
 - For you what is work life balance and how do you maintain it?
   To me, work–life balance isn’t about splitting time 50/50. It’s about being fully present where I am. When I’m at work, I focus and give my best. When I’m off, I disconnect and recharge so I can come back productive. I think balance changes depending on deadlines, but long term it’s about sustainability.
@@ -145,7 +211,7 @@ Stories give a better picture of you and your skills
   - Tell them if you have any commitments to finish beforehand
 - What do you know about us that is not on our website?
 
-## Critical Questions
+# Critical Questions that are very important to answer correctly
 
 Important questions that If you don’t answer properly. You don’t get the job.
 
@@ -160,7 +226,7 @@ Important questions that If you don’t answer properly. You don’t get the job
   - If my skills don’t align with company. If it is not valued. Or not respected.
 - Why did you resign from the last company?
 
-## Cultural Round Questions
+# Cultural Round Questions
 
 - From what you know about the company and the work we do here, what is something you'd suggest as an improvement or which aspect will be the first place you'd look for any scope of improvement?
   - Does he know the business
@@ -173,7 +239,49 @@ Important questions that If you don’t answer properly. You don’t get the job
 - What does accountability mean to you? Explain a scenario you had to face
 - What is your ideal work environment?
 
-## Salary Negotiations
+# Short-Term & Long-Term Goal
+
+## Short Term Goals
+
+- This is a common question for interviews.
+- What to aim for
+  - Continuous learning
+  - Become in a position of leadership (in 3 years)
+- Short term is around max 3 years in startups and 5 in MNCs (more competitive)
+
+## Long Term Goals
+
+- 7 to 10 years in Startup
+- Longer in MNC
+- What to aim for
+  - Position to make decisions
+  - Keep upgrading knowledge and skill and reach a top position
+- Sample:
+  In the near future the main goals I have is to acquire knowledge related to the domain continously and reach a position where I can take up the responsibilities of a leader or manager. I want to be in position and role that is indespensible to the compnay and the pro ject. In the long run I hope to reach a position where I get to take the decision on behalf of the company I work for and contribute to the growth, both myself and the company
+- Better Answer:
+  In the short term, my goal is to become very strong at the fundamentals of this role and the domain. I want to understand how the system actually works in production — not just writing code, but understanding decisions, trade-offs, and failures.
+  I want to reach a point where I can be trusted with independent ownership of tasks and features, and be someone teammates can rely on for clarity and execution.
+  In the long run,
+  If that grows into a formal leadership role, great. If it stays technical leadership, that’s also fine. What matters to me is being trusted to make good decisions that move the product and the team forward.
+
+## Common follow ups you may expect from questions related to your goals
+
+- How do you plan to achieve these goals?
+  - The one thing i do regularly is to be updated with the trends and changes in the domain. So when a problem or a need arises i’ll be ready with tools to find the right solution.
+  - better answer
+    I try to achieve this in very practical ways. I actively keep track of what I don’t understand and work on closing those gaps — through documentation, code reviews, and asking questions early.
+    I also pay attention to why decisions are made, not just what is implemented. Over time, that helps me make better choices on my own and take more responsibility.
+
+# Follow up questions that you may ask from your side
+
+Always do research about the company and the role and also listen to the conversation you are in. Ask followup questions based on what you hear. And what you need clarity on
+
+- What is the company expecting from me other than what given in the JD?
+- Do you need any more clarity on my profile based on the role?
+- What quality / skill are you looking for in an ideal candidate? (What can i learn to be a better suited for the company)
+- During the initial 90 days what does the company have expect from me?
+
+# Salary Negotiations
 
 - Offering Low package
   Over the past few years i did x y and z
@@ -198,120 +306,3 @@ Important questions that If you don’t answer properly. You don’t get the job
     - ask what are the KPI.
     - ask for feedback
     - get it written and clear.
-
-## Follow up questions
-
-Always do research about the company and the role and also listen to the conversation you are in. Ask followup questions based on what you hear. And what you need clarity on
-
-- What is the company expecting from me other than what given in the JD?
-- Do you need any more clarity on my profile based on the role?
-- What quality / skill are you looking for in an ideal candidate? (What can i learn to be a better suited for the company)
-- During the initial 90 days what does the company have expect from me?
-
-## **Self-Introduction: John Doe**
-
-<aside>
-💡
-
-Don’t use i am this that. Make something catchy. Use big words.
-
-- Example
-  "Hello everyone, I’m John Doe. Before I tell you what I build now, let me tell you what I used to build.
-  My roots are in the vibrant, complex world of Civil Engineering—specifically, on the demanding construction sites of Kochi. For two years, I wasn't just reading blueprints; I was the guy managing the entire operation: securing the contracts, balancing the books, handling the intense negotiations between clients, workers, and dealers, and leading the project execution from the ground up. I had full accountability for every single phase.
-  But here’s the problem I ran into: The tools of the trade were slowing me down. I realized that the greatest leverage point for growth wasn't just managing concrete and steel, but managing information.
-  This realization became my obsession. I started small—optimizing spreadsheets, building database logic—and what began as an efficiency hack for my engineering business quickly became a profound new direction. I discovered the deep, almost addictive satisfaction of solving complex, intricate problems using code.
-  I made the pivot, dedicated myself fully to this new craft, and now I operate as a Full Stack Software Developer.
-  My core mission is to build comprehensive web solutions that tackle those real-world business challenges I know intimately. My stack is sharp and modern: TypeScript, Node.js, Express, React, and Next.js, all containerized with Docker.
-  The difference between me and a typical developer? I don't just understand the code; I understand the P&L, the project lifecycle, the client relationship, and the critical path. I bring two years of hands-on, full-spectrum project management and business acumen directly into the software development process.
-  I’m looking for a team where I can leverage this unique blend of real-world accountability and technical depth to drive meaningful change. I'm eager to learn, contribute, and build something truly impactful.
-  Now, which part of that journey—the site execution or the code stack—would you like to drill into first?"
-
-</aside>
-
- **Basic Information**
-
-- **Name:** John Doe
-- **Location:** Kochi, Kerala
-- **Current Role:** Full Stack Software Developer
-
-**Current Expertise (Software Development)**
-
-- I build **full-stack web solutions** focused on solving real-world problems.
-- My development philosophy is rooted in **Object-Oriented Programming (OOP)** principles.
-- **Key Technologies:**
-- **Backend:** Node.js, Express, TypeScript, JavaScript, Docker
-- **Frontend:** React, Next.js
-
-**Previous Background (Civil Engineering)**
-
-- **Education:** B.Tech in Civil Engineering (Graduated 2021)
-- **Experience:** 2 years as an Onsite Engineer, followed by licensed freelancing.
-- **Key Professional Skills:**
-- Project Management (handling, securing, and execution)
-- Client Relations and Stakeholder Management (clients, workers, and dealers)
-- Business Operations (Sales, Marketing, and Accounting)
-
- **Transition to Tech**
-
-- I discovered coding while looking for tools (spreadsheets, Notion databases) to streamline my engineering business processes.
-- The satisfaction of solving problems and building applications led me to pursue a bootcamp and become a full-stack developer.
-- I am passionate about leveraging my combined experience to build efficient and impactful software solutions.
-
-**Closing Statement:**
-
-I am now actively looking for a role where I can utilize both my technical expertise and my strong professional/project management background to contribute to positive change within a company. Is there anything specific about my experience you'd like me to elaborate on?
-
-- Example:
-  "Hello, I'm John Doe, and I'm originally from Kochi, a small but vibrant city in Kerala.
-  I currently work as a **Full Stack Software Developer**, focusing on building comprehensive web solutions that tackle real-world challenges using the principles of Object-Oriented Programming. My core technology stack is robust, including **TypeScript, Node.js, Express, React, and Next.js**, and I utilize tools like **Docker** for deployment and containerization.
-  My journey to software development is perhaps unconventional. I hold a B.Tech in **Civil Engineering** and graduated in 2021. Following my graduation, I spent two years gaining hands-on experience as an Onsite Engineer. After earning my engineer’s license, I transitioned into freelancing, which significantly broadened my professional skill set. In my engineering career, I was deeply involved in every phase of a project: securing new projects, managing accounting and sales, leading project execution, and simultaneously balancing the complex relationships between clients, workers, and dealers.
-  It was in the pursuit of greater efficiency for my own engineering business that I stumbled upon the power of coding. I started with simple tools—optimizing spreadsheets and setting up database tables in Notion—and eventually found my way to programming. I quickly realized the deep satisfaction that comes from solving small, intricate problems and building functional applications. This passion led me to dedicate myself fully to the field, culminating in a specialized bootcamp.
-  Now, as a full-stack web developer, I am looking forward to joining a company where I can apply my unique blend of technical skills and real-world project management expertise to drive meaningful change. I'm eager to learn and contribute to a team environment. Is there anything specific about my experience that you'd like me to dive deeper into?"
-
-## Short-Term & Long-Term Goal
-
-## 1. Short Term Goals
-
-- This is a common question for interviews.
-- What to aim for
-  - Continuous learning
-  - Become in a position of leadership (in 3 years)
-- Short term is around max 3 years in startups and 5 in MNCs (more competitive)
-
-## 2. Long Term
-
-- 7 to 10 years in Startup
-- Longer in MNC
-- What to aim for
-  - Position to make decisions
-  - Keep upgrading knowledge and skill and reach a top position
-- Sample:
-  In the near future the main goals I have is to acquire knowledge related to the domain continously and reach a position where I can take up the responsibilities of a leader or manager. I want to be in position and role that is indespensible to the compnay and the pro ject. In the long run I hope to reach a position where I get to take the decision on behalf of the company I work for and contribute to the growth, both myself and the company
-- Better Answer:
-  In the short term, my goal is to become very strong at the fundamentals of this role and the domain. I want to understand how the system actually works in production — not just writing code, but understanding decisions, trade-offs, and failures.
-  I want to reach a point where I can be trusted with independent ownership of tasks and features, and be someone teammates can rely on for clarity and execution.
-  In the long run,
-  If that grows into a formal leadership role, great. If it stays technical leadership, that’s also fine. What matters to me is being trusted to make good decisions that move the product and the team forward.
-
-## 3. Common follow ups
-
-- How do you plan to achieve these goals?
-  - The one thing i do regularly is to be updated with the trends and changes in the domain. So when a problem or a need arises i’ll be ready with tools to find the right solution.
-  - better answer
-    I try to achieve this in very practical ways. I actively keep track of what I don’t understand and work on closing those gaps — through documentation, code reviews, and asking questions early.
-    I also pay attention to why decisions are made, not just what is implemented. Over time, that helps me make better choices on my own and take more responsibility.
-
-<aside>
-💡
-
-**Top skills absolutely necessary.**
-
-- Problem Solving
-- Communication
-- Adaptability
-- Ownership of work
-- Strong fundamentals in tech
-
-Always show that you have these skills when presenting your self. These are the ones they look for
-
-</aside>
