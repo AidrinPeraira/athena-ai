@@ -13,7 +13,7 @@ interface Message {
 
 // ─── Animated Text (word-by-word reveal) ─────────────────────────────────────
 
-function AnimatedAnswer({ text, key: animKey }: { text: string; key: string }) {
+function AnimatedAnswer({ text, animKey }: { text: string; animKey: string }) {
   const words = text.split(" ");
   return (
     <motion.div
@@ -227,7 +227,7 @@ export default function ChatPage() {
                   >
                     <AnimatedAnswer
                       text={answer}
-                      key={`animated-${answerKey}`}
+                      animKey={`animated-${answerKey}`}
                     />
                   </div>
                 </motion.div>
