@@ -2,6 +2,10 @@
 
 A simple RAG (Retrieval-Augmented Generation) chatbot built to help you practice and prepare for HR interviews. Ask a question, and Athena finds the most relevant advice from your knowledge base and generates a clear, practical answer.
 
+## Why I Built This
+
+I built this RAG bot because over time, I had collected a solid set of HR interview questions along with invaluable inputs and strategies from my mentors on how to effectively answer them. I wanted to share this curated knowledge with my peers so that they could find it just as useful. Instead of just sharing a static document, I built this RAG bot focused entirely on that data. This allows anyone to interactively ask questions and receive context-aware, mentor-level guidance on their interview preparation.
+
 ## How It Works
 
 1. Your training data (`DATA.md`) is split into chunks, embedded, and stored as vectors in **AstraDB**.

@@ -82,19 +82,39 @@ async function loadSampleData() {
     const cleanedContent = cleanMarkdownText(rawContent);
     const chunks = await splitter.splitText(cleanedContent);
 
-    const response = await ai.models.embedContent({
-      model: "gemini-embedding-001",
-      contents: chunks,
-    });
+    const vectors: any[] = [];
+    const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+    for (let i = 0; i < chunks.length; i += 20) {
+      const chunkBatch = chunks.slice(i, i + 20);
+      try {
+        const response = await ai.models.embedContent({
+          model: "gemini-embedding-001",
+          contents: chunkBatch,
+        });
 
-    if (!response.embeddings) {
-      throw new Error("Failed to generate embeddings");
+        if (!response.embeddings) {
+          throw new Error("Failed to generate embeddings");
+        }
+
+        const batchVectors = response.embeddings.map((v, j) => ({
+          $vector: v.values,
+          text: chunkBatch[j],
+        }));
+        vectors.push(...batchVectors);
+      } catch (err: any) {
+        if (err.status === 429) {
+          console.warn("Rate limited (429), waiting 10 seconds and retrying...");
+          await delay(10000);
+          i -= 20; // retry the same batch
+          continue;
+        }
+        throw err;
+      }
+
+      if (i + 20 < chunks.length) {
+        await delay(3000); // 3 second delay between batches
+      }
     }
-
-    const vectors = response.embeddings.map((v, i) => ({
-      $vector: v.values,
-      text: chunks[i],
-    }));
 
     const dbResponse = await collection.insertMany(vectors);
     console.log("DB Response: ", dbResponse);
