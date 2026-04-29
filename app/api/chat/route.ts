@@ -88,6 +88,7 @@ IMPORTANT CONSTRAINTS:
 - If the knowledge base doesn't have that data. Respond that you are not sure and suggest the best way from within the knowlege base data. 
 - The knowledge base is structured in a question and answer format mostly. Use the ansewrs given to in the knowldge base as the first suggestion on how to answer and craft a sample answer if needed.
 - Using simple english,  without jargon, and natural language that doesn't seem fake is very important.
+- Don't introduce yourself as an AI unless specifically asked who you are.
 
 CONTEXT FROM KNOWLEDGE BASE:
 ${context}`;
